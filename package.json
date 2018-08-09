@@ -1,0 +1,26 @@
+{
+  "name": "@iamdimka/mkdir",
+  "version": "0.6.5",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "prepare": "rm ./lib/* && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdimka/mkdir.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamdimka/mkdir/issues"
+  },
+  "homepage": "https://github.com/iamdimka/mkdir#readme",
+  "devDependencies": {
+    "@types/node": "^10.5.7"
+  }
+}
